@@ -1,0 +1,14 @@
+name: blossom-flow
+on: workflow_dispatch
+jobs:
+    first-job: 
+        runs-on: ubuntu-latest
+        steps:
+           - name:  printing emotions1
+             run:     echo "Hello Happy" 
+           - name:  printing emotions2
+             run:     echo "Hello Happy" 
+
+
+
+
